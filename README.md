@@ -10,3 +10,9 @@
 * the following model gives 65.55 validation accuracy
 
 https://www.dropbox.com/s/5vnmc6028zm2qd0/65.55%25.h5?dl=0
+
+#### Model 2 
+
+* the model gave 66.245 validation accuracy
+
+* it was optimized using normalizationa and using new dropout values

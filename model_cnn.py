@@ -32,15 +32,16 @@ model.add(MaxPooling2D(pool_size=(1,1), strides=(2, 2)))
 
 # converting to 1-d array
 model.add(Flatten())
-
-# add 3 dense layers with dropouts
-model.add(Dense(256, activation='relu'))
+model.add(Dense(1024, activation='relu'))
 model.add(Dropout(0.6))
 model.add(Dense(512, activation='relu'))
+model.add(Dropout(0.4))
+model.add(Dense(256, activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(128, activation='relu'))
 model.add(Dropout(0.3))
-model.add(Dense(1024, activation='relu'))
-
-# output
+model.add(Dense(64, activation='relu'))
+model.add(Dropout(0.3))
 
 model.add(Dense(7, activation='softmax')) # check if there were 7 expressions)
 model.add(Dropout(0.4))
@@ -49,6 +50,8 @@ model.add(Dense(num_classes, activation='softmax'))
 
 
 # compilation 
-
+final validation accuracy was ~65.511 %
+epochs 100 
+batch size 64
 
 # Fit the model

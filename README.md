@@ -32,3 +32,5 @@ https://www.dropbox.com/s/5vnmc6028zm2qd0/65.55%25.h5?dl=0
 * The parameters for dropout , etc were changed along with other parameters.
 
 * The final accuracy came out to be 67.66 % 
+
+https://drive.google.com/file/d/1-210AjhzEsNuOvnKMVT-98S4UfZ1hs2p/view?usp=sharing

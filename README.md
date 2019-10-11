@@ -25,4 +25,10 @@ https://www.dropbox.com/s/5vnmc6028zm2qd0/65.55%25.h5?dl=0
 * addind 2 more conv2d layers and a dense layer didn't help
 
 * Since the performance decreased, we are not providing a link for the model
+# Model 4
 
+* Final tuning for days incresed the accuracy a little
+
+* The parameters for dropout , etc were changed along with other parameters.
+
+* The final accuracy came out to be 67.66 % 

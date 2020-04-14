@@ -22,7 +22,7 @@ https://www.dropbox.com/s/5vnmc6028zm2qd0/65.55%25.h5?dl=0
 
 * it gave 63.352 accuracy  loss 1.196
 
-* addind 2 more conv2d layers and a dense layer didn't help
+* adding 2 more conv2d layers and a dense layer didn't help
 
 * Since the performance decreased, we are not providing a link for the model
 # Model 4
